@@ -1,6 +1,6 @@
 import boto3
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('heydevops')
+table = dynamodb.Table('PythonPractice_heydevops')
 print(table.creation_date_time)
 
 table.update_item(

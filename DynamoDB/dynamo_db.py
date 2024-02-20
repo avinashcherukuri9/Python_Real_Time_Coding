@@ -5,7 +5,7 @@ dynamodb = boto3.resource('dynamodb')
 
 # Create the DynamoDB table.
 table = dynamodb.create_table(
-    TableName='heydevops',
+    TableName='PythonPractice_heydevops',
     KeySchema=[
         {
             'AttributeName': 'username',
